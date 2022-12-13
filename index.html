@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- CSS only -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-rbsA2VBKQhggwzxH7pPCaAqO46MgnOM80zW1RWuH61DGLwZJEdK2Kadq2F9CUG65" crossorigin="anonymous">
+    <link rel="stylesheet" href="./style/main.css">
+    <title>Gues my number</title>
+</head>
+
+<body>
+    <div class="container">
+        <form action="submit">
+            <div class="col main-div">
+                <label for="">
+                   <h4> Ismingiz: </h4>
+                    <input id="name" type="text" class="form-control" placeholder="Ismingizni kiriting" aria-label="First name" >
+                </label>
+                <label for="">
+                    <h4>O'ylagan raqamingiz: </h4>
+                    <input id="number" type="number" class="form-control" placeholder="1 dan 10 gacha raqam kiriting" aria-label="First name" required>
+                </label>
+                <button type="submit" class="btn btn-outline-primary">Tekshirish</button>
+                <a href="./index.html" class="btn btn-outline-primary">Reset</a>
+            </div>
+            <h3 id="result"></h3>
+
+            <h1 id="result2"></h1>
+            <div class="bottom-div">
+                <h3 id="randomSon"></h3>
+                <img id="bad" src="https://o.remove.bg/downloads/515f10c4-0a1c-491f-8433-5f583cb20a7d/Sorry-With-Emoticon-Picture-1024x717-removebg-preview.png" alt="">
+                <img id="smile" src="https://o.remove.bg/downloads/fabef312-9c49-4635-af99-dd6964aa50d3/318-3184478_smile-smiley-smileyface-emoji-smileemoji-weirdemoji-hd-png-removebg-preview.png" alt="">
+
+            </div>
+        </form>
+    </div>
+    <!-- JavaScript Bundle with Popper -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-kenU1KFdBIe4zVF0s0G1M5b4hcpxyD9F7jL+jjXkk+Q2h455rYXK/7HAuoJl+0I4" crossorigin="anonymous"></script>
+    <script src="./js/app.js"></script>
+</body>
+
+</html>

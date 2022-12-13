@@ -1,0 +1,64 @@
+body {
+    background: linear-gradient(to left bottom, #9548c7, #e343a3, #ff637c, #ff9361, #ffc461, #f6bc60, #ecb35e, #e3ab5d, #ce7055, #a43e58, #661e56, #131048);
+    /* background-repeat: no-repeat; */
+    height: 100vh;
+    max-height: max-content;
+}
+
+.container {
+    width: 100%;
+    max-width: 120rem;
+    margin-right: auto;
+    margin-left: auto;
+    padding: 50px 20px;
+}
+
+.main-div {
+    width: 100%;
+    max-width: 500px;
+    margin-right: auto;
+    margin-left: auto;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    justify-content: center;
+}
+
+h1 {
+    text-align: center;
+}
+
+h3 {
+    margin-top: 10px;
+    text-align: center;
+}
+
+.bottom-div {
+    padding-top: 30px;
+    width: 100%;
+    max-width: 500px;
+    margin-right: auto;
+    margin-left: auto;
+    /* display: flex; */
+}
+
+.bottom-div img {
+    width: 50%;
+    min-width: 100px;
+    height: 50%;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+form input {
+    width: 100%;
+    text-align: center;
+}
+
+.btn:active {
+    opacity: 0.7;
+}
+
+.main-div h1 {
+    color: black;
+}
